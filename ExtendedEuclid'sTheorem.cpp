@@ -30,3 +30,19 @@ Triplet extendedEuclids(ll a, ll b) {
 
       return res;
 }
+
+void solve() {
+      int t; t = 1;
+      //cin >> t;
+      while (t--) {
+
+            //int n; cin >> n;
+            ll a = 16, b = 10;
+
+            Triplet ans = extendedEuclids(a, b);
+
+            cout << ans.gcd << " " << ans.x << " " << ans.y << nline;
+
+      }
+
+}
